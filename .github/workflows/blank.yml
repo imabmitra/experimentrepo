@@ -35,5 +35,7 @@ jobs:
 
       - name: Run a cmd script
         run: |
-            echo "xyz"
+            mkdir othrepo
+            cd othrepo
+            git clone https://github.com/imabmitra/experimentrepo2.git
         
