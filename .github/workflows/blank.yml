@@ -39,5 +39,5 @@ jobs:
             cd othrepo
             git clone https://github.com/imabmitra/experimentrepo2.git
             cd ..
-            python main.py
+            python main3.py
         
