@@ -34,4 +34,6 @@ jobs:
         run: python main2.py
 
       - name: Run a cmd script
-        run: run.cmd
+        run: |
+            echo "xyz"
+        
